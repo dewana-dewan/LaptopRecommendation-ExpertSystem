@@ -41,7 +41,7 @@ compare_gc_size(P,Q):-
     X = R, Y= S,
     X>=Y.
 
-compare_gc_size(P,Q):-
+compare_hd_size(P,Q):-
     hd_size(P,R),
     hd_size(Q,S),
     X = R, Y= S,
